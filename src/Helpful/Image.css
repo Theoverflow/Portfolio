@@ -1,0 +1,34 @@
+.blckh, .glxy, .slrsyst {
+  width:288px;
+  height:288px;
+
+  animation-name: spin;
+  animation-duration: 30000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.bbl{
+  opacity: 0.9;
+}
+
+.bbd{
+  opacity: 0.85;
+}
+
+.imgskill{
+  margin-left: 1rem;
+  margin-right: 1rem;
+  cursor: pointer;
+}
+
+
+
+@keyframes spin {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+  }
+}

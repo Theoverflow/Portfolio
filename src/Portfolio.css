@@ -1,0 +1,207 @@
+.dark {
+  --text-primary: #b6b6b6;
+  --text-secondary: #ececec;
+  --main-bg-primary: #3D3D4A;
+  --bg-primary: #23232e;
+  --bg-secondary: #141418;
+  --svg-color: #df49a6;
+}
+
+.light {
+  --text-primary: #1f1f1f;
+  --text-secondary: #000000;
+  --main-bg-primary: #ffffff;
+  --bg-primary: #e5e5ec;
+  --bg-secondary: #d1d1d1;
+  --svg-color: #18C5D0;
+}
+
+
+
+
+/* Large Screen */
+@media only screen and (min-width:600px){
+  .mainP{
+    position: static;
+    margin-left:5rem;
+    width: auto;
+    padding:2rem;
+    display: flex;
+    flex-flow: column nowrap;
+    color: var(--text-primary);
+    background-color: var(--main-bg-primary);
+    overflow:hidden;
+    align-items: center;
+  }
+
+  .adiv{
+    height: 8rem;
+    width: 55rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+  }
+
+  .a2div {
+    font-size: 4em;
+    font-weight: bold;
+    will-change: transform, opacity;
+    overflow: hidden;
+    height: innerHeight;
+  }
+
+  .mainP > h1{
+    font-size: 3rem;
+  }
+
+ .babaexp{
+   display: flex;
+   flex-flow: row nowrap;
+   margin-top: 5rem;
+   width:calc(100vw - 10rem );
+   margin-bottom: 9rem;
+ }
+
+ .babalogo{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+
+ .babactt{
+   display: flex;
+   width:100%;
+   flex-flow: column;
+   align-items: center;
+   margin-left: 3rem;
+   margin-top: 1.5rem;
+ }
+
+ .babactt h2 {
+   text-align: justify;
+   font-weight: lighter;
+ }
+
+ .lgntwrk{
+   margin-top: 1rem;
+   width: 15.6rem;
+   height: 6rem;
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+ }
+
+ .mgateexp{
+   display: flex;
+   flex-flow: row-reverse nowrap;
+   width:calc(100vw - 10rem );
+   margin-bottom: 9rem;
+ }
+
+ .mgatelogo{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+
+ .mgatectt{
+   display: flex;
+   width:100%;
+   flex-flow: column;
+   align-items: center;
+   margin-right: 3rem;
+   margin-top: 1.5rem;
+ }
+
+ .mgatectt h2 {
+   text-align: justify;
+   font-weight: lighter;
+ }
+
+ .bdeexp{
+   display: flex;
+   flex-flow: row nowrap;
+   width:calc(100vw - 10rem );
+   margin-bottom: 9rem;
+ }
+
+ .bdelogo{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+
+ .bdectt{
+   display: flex;
+   width:100%;
+   flex-flow: column;
+   align-items: center;
+   margin-left: 3rem;
+   margin-top: 1.5rem;
+ }
+
+ .bdectt h2 {
+   text-align: justify;
+   font-weight: lighter;
+ }
+
+ .minesttl{
+   margin-top: 2rem;
+   font-size: 2rem;
+ }
+
+ .minesexp{
+   display: flex;
+   margin-top: 3rem;
+   width:calc(100vw - 10rem);
+   margin-bottom: 9rem;
+   align-items: center;
+   justify-content: space-around;
+ }
+
+ .minestxt1{
+   display: flex;
+   margin-right: 2rem;
+   width: calc(365px - 2rem);
+   text-align: justify;
+ }
+
+ .minestxt1 h2 {
+   font-weight: normal;
+ }
+
+ .minestxt2{
+   display: flex;
+   flex-flow: column;
+   text-align: justify;
+   margin-left: 2rem;
+   width: calc(365px - 2rem);
+ }
+
+ .minestxt2 h2{
+   font-size: 1.5rem;
+   margin-bottom: 0.3rem;
+   font-weight: 600;
+ }
+
+ .minestxt2 ul{
+   margin-top: 0.4rem;
+ }
+
+ .minestxt2 li{
+   font-size: 1.3rem;
+ }
+
+ .drgm{
+   margin-top: 2rem;
+   margin-bottom: 1rem;
+   font-size: 2rem;
+ }
+
+}
+
+/* Small Screen */
+@media only screen and (max-width:600px){
+
+}

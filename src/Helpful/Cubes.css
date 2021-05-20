@@ -1,0 +1,10 @@
+.passions{
+  position:relative;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-around;
+  align-items: center;
+  width:calc(100vw - 10rem);
+  height: 350px;
+  margin-bottom: 9rem;
+}
